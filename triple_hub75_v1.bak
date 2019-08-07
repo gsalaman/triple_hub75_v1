@@ -175,13 +175,6 @@ NoConn ~ 3250 4950
 NoConn ~ 3250 5050
 NoConn ~ 2650 4550
 NoConn ~ 2550 4550
-NoConn ~ 2350 4550
-NoConn ~ 2150 7150
-NoConn ~ 2250 7150
-NoConn ~ 2350 7150
-NoConn ~ 2450 7150
-NoConn ~ 2550 7150
-NoConn ~ 2650 7150
 Wire Wire Line
 	2050 7150 2050 7350
 Wire Wire Line
@@ -876,5 +869,63 @@ Wire Wire Line
 Wire Wire Line
 	2750 7150 2750 7350
 Wire Wire Line
-	2750 7350 2050 7350
+	2750 7350 2650 7350
+Wire Wire Line
+	2650 7150 2650 7350
+Connection ~ 2650 7350
+Wire Wire Line
+	2650 7350 2550 7350
+Wire Wire Line
+	2550 7150 2550 7350
+Connection ~ 2550 7350
+Wire Wire Line
+	2550 7350 2450 7350
+Wire Wire Line
+	2450 7150 2450 7350
+Connection ~ 2450 7350
+Wire Wire Line
+	2450 7350 2350 7350
+Wire Wire Line
+	2350 7150 2350 7350
+Connection ~ 2350 7350
+Wire Wire Line
+	2350 7350 2250 7350
+Wire Wire Line
+	2250 7150 2250 7350
+Connection ~ 2250 7350
+Wire Wire Line
+	2250 7350 2150 7350
+Wire Wire Line
+	2150 7150 2150 7350
+Connection ~ 2150 7350
+Wire Wire Line
+	2150 7350 2050 7350
+Wire Wire Line
+	2250 4250 2350 4250
+Wire Wire Line
+	2350 4250 2350 4550
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5D4C4BBD
+P 8600 1050
+F 0 "J7" H 8680 1092 50  0000 L CNN
+F 1 "Conn_01x01" H 8680 1001 50  0000 L CNN
+F 2 "" H 8600 1050 50  0001 C CNN
+F 3 "~" H 8600 1050 50  0001 C CNN
+	1    8600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5D4C57FB
+P 8600 850
+F 0 "J6" H 8680 892 50  0000 L CNN
+F 1 "Conn_01x01" H 8680 801 50  0000 L CNN
+F 2 "" H 8600 850 50  0001 C CNN
+F 3 "~" H 8600 850 50  0001 C CNN
+	1    8600 850 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8400 850 
+NoConn ~ 8400 1050
 $EndSCHEMATC
